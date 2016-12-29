@@ -1,6 +1,6 @@
 /* CSS Document */
 .style1 {
-	font-family: "Open Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: 'Open Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 2em;
 	text-align: center;
 	margin: 1em auto 0.5em;
@@ -31,7 +31,7 @@ h3.style1 {
 
 body {
 	background-color: rgba(225,225,225,1.00);
-	font-family: "Open Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: 'Open Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 .img_logo {
@@ -325,4 +325,49 @@ body {
 	.footer-list {
 		margin-bottom: 20px;
 }
+}
+@media (max-width: 400px) {
+	.style1 {
+		font-size: 0.9em;
+	}
+	.article {
+	font-size: 1em;
+	margin-top: 430px;
+	margin-left: 0;
+	margin-right: 0;
+	}
+	
+	.article.initial {
+		margin-top: 0;
+	}
+	.carousel-gif-descr {
+	font-size: 0.9em;
+	}
+	
+	h2.style1 {
+	font-size: 1.2em;
+	}
+	h3.style1 {
+	font-size: 1.5em;
+	}
+	.carousel-gif-container {
+		height: 530px;
+		padding-top:77px;
+	}
+	.carousel-gif{
+		width: 180px;
+	}
+	.img_hero {
+		height:400px;
+	}
+	.footer-fix {
+		margin-top: 400px;
+	}
+	.footer-list > p {
+		line-height: 1.4em;
+		margin: 0;
+	}
+		.carousel-indicators {
+		top: 40px;
+	
 }
