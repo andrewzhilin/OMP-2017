@@ -144,7 +144,7 @@ body {
 /* Carousel GIF Container */
 .carousel-gif-container {
 	background-image: url(../images/carousel_gestures/JollaC_white1.jpg);
-	background-position: top center;
+	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 108px;
@@ -162,18 +162,27 @@ body {
 }
 @media (max-width: 768px) {
 	.carousel-gif-container {
-		padding-top: 110px;
+		width: 60vw;
+		height: 100vw;
+		padding: 0;
+		margin: 0 auto;
 	}
+	.carousel-gif {
+		width: 34vw;
+		height: 100%;
+		padding: 0;
+	}	
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.carousel-gif-container {
-		padding-top: 34px;
 		height: 450px;
+		padding: 0;
 	}
-	.carousel-gif {
-		margin:0px auto;
-		display: block;
-		width: 150px;
+		.carousel-gif {
+		width: 68%;
+		height: 100%;
+		padding: 0;
+		margin: 0 auto;
 	}	
 }
 
@@ -318,7 +327,11 @@ body {
 
 @media (max-width: 767px){
 	.footer-list {
-		margin-bottom: 20px;
+		margin-bottom: 20px;	
+	}
+	.footer-list > p {
+		line-height: 1.4em;
+		margin: 0;
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -351,11 +364,15 @@ body {
 	font-size: 1.5em;
 	}
 	.carousel-gif-container {
-		height: 530px;
-		padding-top:77px;
+		width: 60vw;
+		height: 100vw;
+		padding: 0;
+		margin: 0 auto;
 	}
 	.carousel-gif{
-		width: 180px;
+		width: 34vw;
+		height: 100%;
+		padding: 0;
 	}
 	.img_hero {
 		height:400px;
