@@ -351,6 +351,10 @@ body {
 	}
 
 @media (max-width: 400px) {
+	.img_logo {
+		width: 40%;
+		margin-top: 20px;
+	}
 	.style1 {
 		font-size: 0.9em;
 	}
