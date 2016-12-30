@@ -10,7 +10,7 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=cyrillic-ext" rel="stylesheet"> 
-<script type="text/javascript" src="js/video-scroller.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-touch-carousel.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -117,12 +117,12 @@
 				<div class="img_hero img_amb3 item"></div>
 
 			</div>
-			<a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
-<!--				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+			<a class="left carousel-control control-fix" href="#carousel1" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
 			
-		<a class="right carousel-control" href="#carousel1" role="button" data-slide="next">		<!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
+		<a class="right carousel-control control-fix" href="#carousel1" role="button" data-slide="next">		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 			</a>
 		</div>
@@ -159,27 +159,27 @@
  	<div class="img_hero img_filter"></div>
   </div>
 </div>
-<div class="container footer-fix">
+<div class="container footer-fix vcard">
   <div class="row">
-    <div class="text-center col-md-7 col-lg-10 col-lg-offset-2 col-md-offset-2">
+    <div class="text-center col-md-7 col-lg-10 col-lg-offset-2 col-md-offset-2 fn org">
     	<img src="images/OMP-logo.svg" class="omp-footer-logo" alt="Открытая Мобильная Платформа">
     </div>
   </div>
   <div class="row">
-    <div class="footer-list left col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-7">
-      <p><strong>Республика Татарстан:</strong> Верхнеуслонский район,</p>
-      <p>г. Иннополис, ул. Университетская, д.7,</p>
-      <p>офис 59</p>
+    <div class="footer-list left col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-7 adr">
+		<p><span class="region"><strong>Республика Татарстан:</strong> Верхнеуслонский район</p></span>
+      <p><span class="locality">г. Иннополис</span>, <span class="street-address">ул. Университетская, д.7</span></p>
+	  <p><span class="extended-address">офис 59</span></p>
+    </div>
+    <div class="footer-list col-lg-offset-2 col-lg-8 col-md-7 col-md-offset-2 adr">
+		<p><span class="locality"><strong>Москва:</strong></span> <span class="street-address">ул. Барклая, д.6, стр.5</span></p>
+      <p><span class="extended-address">офис 223/1</span></p>
     </div>
     <div class="footer-list col-lg-offset-2 col-lg-8 col-md-7 col-md-offset-2">
-      <p><strong>Москва:</strong> ул. Барклая, д.6, стр.5, </p>
-      <p>офис 223/1 </p>
-    </div>
-    <div class="footer-list col-lg-offset-2 col-lg-8 col-md-7 col-md-offset-2">
-		<p><strong>Телефон:</strong> +7 (495) 269-0979&nbsp;</p>
+		<p><strong>Телефон: </strong><span class="tel">+7 (495) 269-0979</span></p>
 	</div>
 	<div class="footer-list col-lg-offset-2 col-lg-8 col-md-7 col-md-offset-2">
-		<p><strong>Email:</strong> info@omprussia.ru </p>
+		<p><strong>Email: </strong><a class="email" href="mailto:info@omprussia.ru">info@omprussia.ru</a></p>
 	</div>
   </div>
  
