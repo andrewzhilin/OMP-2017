@@ -159,6 +159,7 @@ body {
 	display: block;
 	width: 200px;
 	height: 378px;
+	background-color: #000;
 }
 @media (max-width: 768px) {
 	.carousel-gif-container {
