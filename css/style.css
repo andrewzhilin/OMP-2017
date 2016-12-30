@@ -388,6 +388,8 @@ body {
 	}
 	.footer-fix {
 		margin-top: 400px;
+		width: 90%;
+		margin-left: 5%;
 	}
 	.footer-list > p {
 		line-height: 1.4em;
