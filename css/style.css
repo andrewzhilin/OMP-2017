@@ -164,15 +164,12 @@ body {
 }
 @media (max-width: 768px) {
 	.carousel-gif-container {
-		width: 60vw;
-		height: 100vw;
+		height: 130vw;
 		padding: 0;
 		margin: 0 auto;
 	}
 	.carousel-gif {
-		width: 34vw;
-		height: 100%;
-		padding: 0;
+		width: 43vw;
 	}	
 }
 @media (min-width: 768px) and (max-width: 991px){
