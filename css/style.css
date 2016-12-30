@@ -169,7 +169,8 @@ body {
 		margin: 0 auto;
 	}
 	.carousel-gif {
-		width: 43vw;
+		height: auto;
+		width: 44vw;
 	}	
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -260,7 +261,7 @@ body {
   position: absolute;
   top: 110px;
   left: 50%;
-  z-index: 15;
+  z-index: 2;
   width: 60%;
   padding-left: 0;
   margin-left: -30%;
@@ -319,6 +320,16 @@ body {
 	margin-bottom: 6px;
 	padding-left: 70px;
 }
+	.carousel-control .icon-prev,
+	.carousel-control .glyphicon-chevron-right {
+		right: auto;
+		left: 0;
+	}
+	.carousel-control .icon-prev,
+	.carousel-control .glyphicon-chevron-left {
+		right: 0;
+		left: auto;
+	}
 
 @media (max-width: 767px){
 	.footer-list {
@@ -327,13 +338,18 @@ body {
 	.footer-list > p {
 		line-height: 1.4em;
 		margin: 0;
-}
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.footer-list {
 		margin-bottom: 20px;
+	}
 }
-}
+.control-fix {
+		height: 230px;
+		width: 45%;
+	}
+
 @media (max-width: 400px) {
 	.style1 {
 		font-size: 0.9em;
@@ -380,4 +396,43 @@ body {
 		.carousel-indicators {
 		top: 40px;
 	
+		}
+	.control-fix {
+		height: 20px;
+		width: 45%;
+	}
+}
+@media (max-width: 400px) {
+.control-fix {
+		width: 36%;
+		height: 100px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.carousel-control {
+		top: 10px;
+	}	
+	.control-fix {
+		height: 88px;
+	}
+}
+
+@media (max-width: 767px){
+	.carousel-control .icon-prev,
+	.carousel-control .glyphicon-chevron-right {
+		right: auto;
+		left: 0;
+	}
+	.carousel-control .icon-prev,
+	.carousel-control .glyphicon-chevron-left {
+		right: 0;
+		left: auto;
+	}
+}
+
+@media (min-width:401px) and (max-width: 767px) {
+		.control-fix {
+		width: 41%;
+		height: 237px;
+}
 }
