@@ -148,7 +148,6 @@ body {
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-top: 108px;
 	display: flex;
 	flex-direction: column;
   	justify-content: center;
@@ -190,13 +189,9 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-	.carousel-gif-container {
-		padding-top: 105px;
-	}
 	.carousel-gif {
-		margin:0px auto;
-		display: block;
 		width: 198px;
+		height: auto;
 	}	
 }	
 /*
