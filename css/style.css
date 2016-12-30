@@ -362,13 +362,12 @@ body {
 	font-size: 1.5em;
 	}
 	.carousel-gif-container {
-		width: 60vw;
-		height: 100vw;
+		height: 120vw;
 		padding: 0;
 		margin: 0 auto;
 	}
 	.carousel-gif{
-		width: 34vw;
+		width: 40vw;
 		height:auto;
 	}
 	.img_hero {
