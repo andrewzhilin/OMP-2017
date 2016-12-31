@@ -35,9 +35,9 @@ body {
 }
 
 .img_logo {
-	width: 25%;
+	width: 35%;
 	margin: auto;
-	max-width: 200px;
+	max-width: 300px;
 }
 @media (max-width: 767px){
 	.img_logo {
