@@ -26,7 +26,7 @@ h2.style1 {
 h3.style1 {
 	text-align: center;
 	margin: 0 auto 0.5em;
-	text-transform: uppercase;
+    letter-spacing: 0em;
 }
 
 body {
@@ -56,17 +56,21 @@ body {
 		
 	}
 	.initial {
-		margin-top:0;
+		margin-top:10px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
-	.article {
-		margin: 0 20px;
-	}
 	.img_logo {
 	width: 15%;
 	}	
 }
+.initial {
+		margin-top:30px;
+	}
+
+.firstarticle {
+		margin-top:0;
+	}
 
 /*Hero images setup */
 .img_hero {
@@ -179,6 +183,9 @@ body {
 		height: auto;
 		width: 44vw;
 	}	
+	.carousel-gif-descr {
+		font-size: 1.3em;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.carousel-gif-container {
@@ -373,10 +380,9 @@ body {
 	}
 	
 	.article.initial {
-		margin-top: 0;
+		margin-top: 20px;
 	}
 	.carousel-gif-descr {
-	font-size: 1em;
 	padding: 0 10%;
 		
 	}
