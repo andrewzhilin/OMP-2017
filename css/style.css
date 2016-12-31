@@ -1,7 +1,7 @@
 /* CSS Document */
 .style1 {
 	font-family: 'Open Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 2em;
+	font-size:2em;
 	text-align: center;
 	margin: 1em auto 0.5em;
 	font-weight: 400;
@@ -47,7 +47,7 @@ body {
 }
 
 .article {
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 @media (max-width: 767px){
 	.article {
