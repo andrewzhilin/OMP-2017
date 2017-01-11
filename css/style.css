@@ -17,7 +17,7 @@
 h2.style1 {
 	font-size: 1.1em;
 	text-align: center;
-	margin: 1.5em auto 0; 
+	margin: 1.5em auto 0.7em; 
 	font-weight: 600;
 	color:rgba(154,154,154,1.00);
 	letter-spacing: 0em;
@@ -109,6 +109,10 @@ body {
 	}
 }
 /*Hero images */
+.img_header {
+	background-image: url(../images/hero/hero_header.jpg);
+
+}
 .img_cover {
 	background-image: url(../images/hero/hero_cover.jpg);
 }
@@ -186,6 +190,8 @@ body {
 	}	
 	.carousel-gif-descr {
 		font-size: 1.4em;
+		text-align: center;
+		padding: 0 8%;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
