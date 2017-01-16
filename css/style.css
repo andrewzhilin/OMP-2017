@@ -131,6 +131,9 @@ body {
 	.img-fullwidth-tablet {
 	background-image: url(../images/hero/parallax-header/phone_transparent.png);
 	}
+	.img-fullwidth-background {
+	height: 100vw;
+	}
 }
 .omp-hat-logo {
 		margin: 20px auto 20px auto;
