@@ -158,12 +158,11 @@ body {
 .img-fullwidth-background {
 	height: 30vh;
 	background-position: top center;	
-	background-attachment: fixed;
 }
 .img-fullwidth-tablet {
 	background-image: url(../images/hero/hero_header2.jpg);
 	height: 100%;
-	background-position: center;
+	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	max-width: 1000px;
