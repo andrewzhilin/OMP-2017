@@ -156,13 +156,12 @@ body {
 }
 /*Hat image*/
 .img-fullwidth-background {
-	height: 40vh;
-	background-image: url(../images/hero/parallax-header/ParallaxHeaderBackground1.jpg);
+	height: 30vh;
 	background-position: top center;	
 	background-attachment: fixed;
 }
 .img-fullwidth-tablet {
-	background-image: url(../images/hero/parallax-header/tablet_transparent.png);
+	background-image: url(../images/hero/hero_header2.jpg);
 	height: 100%;
 	background-position: center;
 	background-size: cover;
@@ -172,10 +171,10 @@ body {
 }
 @media (max-width:767px) {
 	.img-fullwidth-tablet {
-	background-image: url(../images/hero/parallax-header/phone_transparent.png);
+	background-size: cover;
 	}
 	.img-fullwidth-background {
-	height: 100vw;
+	height: 50vw;
 	}
 }
 .omp-hat-logo {
