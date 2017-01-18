@@ -3,7 +3,7 @@ body {
 	font-family: 'Open Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size:2em;
 	text-align: center;
-	margin: 1em auto 0.5em;
+	margin: 0 auto;
 	font-weight: 400;
 	letter-spacing: -0.03em;
 }
@@ -176,11 +176,6 @@ body {
 	height: 50vw;
 	}
 }
-.omp-hat-logo {
-		margin: 20px auto 20px auto;
-		width: 140px;
-		display: block;
-	}
 
 
 /*Hero images */
@@ -524,3 +519,24 @@ body {
 		height: 237px;
 }
 }
+/*NAVIGATION*/
+.navbar {
+font-size: 0.8em;
+}
+
+.navbar > .container-fluid {
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.caret {
+	display: none;
+}
+
+.omp-hat-logo {
+		width: 100px;
+		display: block;
+	}
+.navbar-brand {
+		padding: 6px 15px;
+	}
