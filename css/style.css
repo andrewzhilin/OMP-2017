@@ -22,6 +22,7 @@ h3 {
 	text-align: center;
 	margin: 0 auto 0.5em;
     letter-spacing: 0em;
+	line-height: 1.3em;
 }
 
 
@@ -540,3 +541,41 @@ margin: 0 auto;
 .navbar-brand {
 		padding: 6px 15px;
 	}
+
+/*DOCUMENTATION TAB*/
+.documentation {
+	width: 300px;
+	border: none;
+}
+.documentation-header {
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #005574;
+	padding: 10px 20px 0;
+}
+.documentation-desc {
+	padding: 0 20px 10px;
+}
+.documentation-download {
+	font-size: 1.2em;
+
+}
+.cta-link {
+	color: #fff !important;
+	padding: 10px 20px !important;
+	background-color: #005574 !important;
+}
+.cta-link:hover {
+	background-color:#006b95 !important;
+}
+@media (max-width: 767px) {
+	.documentation {
+		text-align: center;
+		margin: 0;
+		padding-top: 0 !important;
+	}	
+	.documentation-header, .documentation-desc, .dropdown.open {
+		background-color: #ededed;
+	}
+
+}
