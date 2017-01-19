@@ -548,13 +548,22 @@ margin: 0 auto;
 	border: none;
 }
 .documentation-header {
-	font-size: 1.2em;
-	font-weight: 600;
-	color: #005574;
-	padding: 10px 20px 0;
+	font-size: 1.2em !important;
+	font-weight: 600 !important;
+	color: #005574 !important;
+	padding: 0 !important;
+	border: dotted;
+	border-width: 0 0 1px 0 !important;
+	border-color: #005574 !important;
+	display: inline !important;
+	margin: 0 0 20px 20px;
+	padding-top: 5px !important;
+}
+.documentation-header:hover {
+	background-color: #fff !important;
 }
 .documentation-desc {
-	padding: 0 20px 10px;
+	padding: 0 20px 8px;
 }
 .documentation-download {
 	font-size: 1.2em;
@@ -577,5 +586,15 @@ margin: 0 auto;
 	.documentation-header, .documentation-desc, .dropdown.open {
 		background-color: #ededed;
 	}
+	.open > a, .open > a:hover, .open > a:focus {
+		background-color: #f8f8f8 !important;
+	}
+	.navbar-nav > li > a {
+		font-size: 1.2em;
+	}
 
+}
+
+.dropdown-menu {
+	padding-top: 10px !important;
 }
